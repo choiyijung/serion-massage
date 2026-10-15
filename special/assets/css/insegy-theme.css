@@ -1,0 +1,852 @@
+/* 인서경마사지 전체 공통 테마 */
+
+html,body{
+  background:#fffafb!important;
+  color:#394654!important;
+}
+
+/* 상단 영역 */
+.ry-topbar,
+.top{
+  background:#f6dce3!important;
+  color:#35465a!important;
+}
+
+.ry-brand,
+.brand{
+  color:#35465a!important;
+}
+
+.ry-brand b{
+  color:#d78da2!important;
+}
+
+/* 히어로 */
+.hero{
+  background:linear-gradient(
+    135deg,
+    #fff8fa 0%,
+    #fdeef2 50%,
+    #f9e1e7 100%
+  )!important;
+}
+
+.eyebrow{
+  color:#c67790!important;
+}
+
+.hero h1{
+  color:#30445a!important;
+}
+
+.hero p{
+  color:#65717f!important;
+}
+
+.hero-note span{
+  background:rgba(255,255,255,.75)!important;
+  border-color:#efcbd5!important;
+  color:#566472!important;
+}
+
+/* 지역 카드 */
+.region-card,
+.area-card{
+  background:#fffafa!important;
+  border-color:#efd2da!important;
+  color:#35465a!important;
+  box-shadow:0 8px 20px rgba(116,71,85,.05)!important;
+}
+
+.hero>.wrap>.region-grid .region-card:nth-child(1),
+.hero>.wrap>.region-grid .region-card:nth-child(2),
+.hero>.wrap>.region-grid .region-card:nth-child(3){
+  background:linear-gradient(
+    135deg,
+    #fff7f9,
+    #f8dfe6
+  )!important;
+  color:#35465a!important;
+}
+
+/* 섹션 */
+.section,
+.editorial{
+  background:#fffafb!important;
+  color:#465563!important;
+}
+
+.section-head span{
+  color:#c67790!important;
+}
+
+.section-head h2,
+.editorial h2,
+.editorial h3,
+.text-box h3{
+  color:#30445a!important;
+}
+
+.section-head p,
+.editorial p,
+.text-box p{
+  color:#687581!important;
+}
+
+/* 본문 강조 영역 */
+.editorial{
+  background:linear-gradient(
+    135deg,
+    #fff7f9 0%,
+    #fdecef 55%,
+    #f9e0e6 100%
+  )!important;
+}
+
+.text-box,
+.check-item{
+  background:rgba(255,255,255,.58)!important;
+  border:1px solid #efcbd5!important;
+  color:#465563!important;
+}
+
+/* 업체 카드 */
+.company-card{
+  background:#fffdfd!important;
+  border:1px solid #efcbd5!important;
+  box-shadow:0 8px 22px rgba(116,71,85,.06)!important;
+}
+
+.company-card:hover{
+  border-color:#e3aebd!important;
+  box-shadow:0 13px 28px rgba(116,71,85,.11)!important;
+}
+
+.company-name,
+.shop-name{
+  color:#30445a!important;
+}
+
+.company-sub,
+.contact-line,
+.area{
+  color:#687581!important;
+}
+
+/* 상세페이지 설명 박스 */
+.card{
+  background:#fffdfd!important;
+  border-color:#efd2da!important;
+}
+
+.shop-intro,
+.note{
+  background:#fff7f9!important;
+  border-color:#efd2da!important;
+}
+
+.shop-intro h2{
+  color:#30445a!important;
+}
+
+.shop-intro p,
+.note{
+  color:#687581!important;
+}
+
+/* 코스표 */
+.course th{
+  color:#35465a!important;
+}
+
+.course th,
+.course td{
+  border-color:#f0dce2!important;
+}
+
+/* 버튼 */
+.company-actions .call,
+.actions .call{
+  background:#d990a4!important;
+  color:#fff!important;
+  border-color:#d990a4!important;
+}
+
+.company-actions .sms,
+.actions .sms{
+  background:#f9e1e7!important;
+  color:#35465a!important;
+  border:1px solid #edc4cf!important;
+}
+
+/* 링크 및 기타 */
+.breadcrumb,
+.back{
+  color:#6d7781!important;
+}
+
+footer{
+  background:#f8e8ed!important;
+  color:#5e6975!important;
+}
+
+/* CLOUD-MASSAGE-STAGE1-20260924 */
+/* 첫 번째 브랜드 시범: 기존 배치를 유지하고 대비가 뚜렷한 블루 테마만 덧씁니다. */
+:root {
+  --ink:#162d40; --navy:#183e60; --paper:#f2f8fc;
+  --white:#ffffff; --line:#c9ddeb; --muted:#496577; --accent:#226da1;
+}
+html,body {background:#f2f8fc!important;color:#162d40!important;}
+.ry-topbar,.top,.topbar {background:#dcecf7!important;color:#183e60!important;}
+.ry-brand,.brand,.top a,.topbar a {color:#183e60!important;}
+.ry-brand b {color:#226da1!important;}
+.hero {background:linear-gradient(135deg,#ffffff 0%,#eaf5fc 55%,#d9ebf8 100%)!important;}
+.hero h1,.hero h2,.section-head h2,.article h2,.article h3,.company-name,
+.shop-name,.company-card h2,.company-card h3 {color:#183e60!important;}
+.hero p,.article p,.section-head p,.company-card p {color:#34536a!important;}
+.eyebrow,.section-head span,.contact-line {color:#226da1!important;}
+.hero-note span,.area-link,.check,.company-card {
+  background:#ffffff!important;color:#183e60!important;border-color:#c9ddeb!important;
+}
+.region-card,.area-card,.hero>.wrap>.region-grid .region-card:nth-child(1),
+.hero>.wrap>.region-grid .region-card:nth-child(2),
+.hero>.wrap>.region-grid .region-card:nth-child(3) {
+  background:linear-gradient(135deg,#ffffff,#dfeefa)!important;
+  color:#183e60!important;border-color:#c9ddeb!important;
+}
+.region-card strong,.region-card small,.region-card span {color:#183e60!important;}
+.section,.editorial {background:#f2f8fc!important;color:#183e60!important;}
+.editorial p,.editorial h2,.text-box h3 {color:#183e60!important;}
+.text-box {background:#e3f0f9!important;color:#183e60!important;}
+.company-actions .call,.call {background:#183e60!important;color:#fff!important;}
+.company-actions .sms,.sms {background:#226da1!important;color:#fff!important;}
+footer {background:#122d44!important;color:#dcecf7!important;}
+footer strong {color:#ffffff!important;}
+/* END CLOUD-MASSAGE-STAGE1-20260924 */
+
+
+/* INSEGY-BULK-STAGE2-site-01 */
+/* 브랜드별 전체 색상 + 기존 노란 안내 바/빨간 버튼을 포함한 테마 보정 */
+:root { --ink:#174b79; --navy:#174b79; --paper:#edf7ff;
+  --white:#fff; --line:#c8e0f4; --muted:#174b79; --accent:#2973b8; }
+html,body { background:#edf7ff!important; color:#174b79!important; }
+.ry-topbar,.top,.topbar { background:#d7eafb!important; color:#174b79!important; }
+.ry-brand,.brand,.top a,.topbar a { color:#174b79!important; }
+.ry-brand b,.eyebrow,.section-head span,.contact-line { color:#2973b8!important; }
+.hero { background:linear-gradient(135deg,#f8fcff 0%,#edf7ff 52%,#d7eafb 100%)!important; }
+.hero h1,.hero h2,.section-head h2,.article h2,.article h3,.company-name,
+.shop-name,.company-card h2,.company-card h3 { color:#174b79!important; }
+.hero p,.article p,.section-head p,.company-card p { color:#174b79!important; }
+.hero-note span,.area-link,.check,.company-card {
+  background:#fff!important; color:#174b79!important; border-color:#c8e0f4!important;
+}
+.region-card,.area-card,.hero>.wrap>.region-grid .region-card:nth-child(1),
+.hero>.wrap>.region-grid .region-card:nth-child(2),
+.hero>.wrap>.region-grid .region-card:nth-child(3) {
+  background:linear-gradient(135deg,#f8fcff,#d7eafb)!important;
+  color:#174b79!important; border-color:#c8e0f4!important;
+}
+.region-card strong,.region-card small,.region-card span { color:#174b79!important; }
+.section,.editorial { background:#edf7ff!important; color:#174b79!important; }
+.editorial p,.editorial h2,.text-box h3 { color:#174b79!important; }
+.text-box { background:#d7eafb!important; color:#174b79!important; }
+.company-actions .call,.call,.ry-buttons a.primary,.ry-buttons .primary {
+  background:#174b79!important; color:#fff!important; border-color:#174b79!important;
+}
+.company-actions .sms,.sms { background:#2973b8!important; color:#fff!important; }
+.ry-reservation,.ry-reservation .wrap {
+  background:#d7eafb!important; color:#174b79!important; border-color:#c8e0f4!important;
+}
+.ry-reservation strong,.ry-reservation span { color:#174b79!important; }
+.ry-buttons a:not(.primary) {
+  background:#f8fcff!important; color:#174b79!important; border-color:#c8e0f4!important;
+}
+/* 업체 카드 번호/배지는 해당 클래스를 사용하는 경우에만 변경 */
+.company-card .company-number,.company-card .company-rank,.company-card .company-no,
+.company-card .rank,.company-card .badge,.company-card .number,
+.company-card [class*="badge"],.company-card [class*="rank"] {
+  background:#174b79!important; color:#fff!important;
+}
+footer { background:#174b79!important; color:#d7eafb!important; }
+footer strong { color:#fff!important; }
+/* END INSEGY-BULK-STAGE2-site-01 */
+
+
+/* NEW8 DESIGN START */
+
+/* site-09 */
+body{
+    background:#111827!important;
+    color:#FFF8E7!important;
+}
+
+header,.top,.site-header{
+    background:#1F2937!important;
+    border-bottom:1px solid #D4A017!important;
+}
+
+.brand,.logo,.site-title{
+    color:#D4A017!important;
+    font-weight:900!important;
+}
+
+.hero{
+    background:linear-gradient(135deg,#111827,#292524)!important;
+    border:1px solid #D4A017!important;
+    border-radius:10px!important;
+    box-shadow:0 14px 36px rgba(0,0,0,.28)!important;
+}
+
+.hero h1,.hero h2,
+section h2,section h3{
+    color:#FFF8E7!important;
+}
+
+.hero p,.hero-note,
+section p,.breadcrumb{
+    color:#D6C8A6!important;
+}
+
+.region-card,
+.area-card,
+.company-card,
+.info-card,
+.shop-card,
+.card{
+    background:#1F2937!important;
+    border:1px solid color-mix(in srgb,#D4A017 28%,transparent)!important;
+    border-radius:10px!important;
+    box-shadow:0 14px 36px rgba(0,0,0,.28)!important;
+    transition:transform .18s ease,box-shadow .18s ease!important;
+}
+
+.region-card:hover,
+.area-card:hover,
+.company-card:hover,
+.shop-card:hover{
+    transform:translateY(-3px)!important;
+}
+
+.region-card strong,
+.region-card span,
+.region-card small,
+.area-link{
+    color:#D4A017!important;
+}
+
+.company-actions .call,
+.call,
+.ry-buttons a.primary,
+.ry-buttons .primary,
+.btn-primary,
+.primary{
+    background:linear-gradient(135deg,#D4A017,#F2C94C)!important;
+    color:#fff!important;
+    border:0!important;
+    border-radius:10px!important;
+}
+
+.company-actions .sms,
+.sms,
+.btn-secondary,
+.secondary{
+    background:#1F2937!important;
+    color:#D4A017!important;
+    border:1px solid #D4A017!important;
+    border-radius:10px!important;
+}
+
+footer,.footer{
+    background:#1F2937!important;
+    color:#D6C8A6!important;
+    border-top:1px solid #D4A017!important;
+}
+
+/* NEW8 DESIGN END */
+
+/* NEW8-DESIGN-START */
+
+/* site-17: split / soft blue */
+:root{--n8-bg:#f6f8ff;--n8-surface:#ffffff;--n8-ink:#172033;--n8-accent:#4f67d8;--n8-line:#dfe5f5}
+body{background:linear-gradient(180deg,#f6f8ff 0,#fff 36%);color:var(--n8-ink)}
+body>header{background:rgba(255,255,255,.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--n8-line)}
+main{max-width:1180px;margin:auto}
+main>section{margin:28px 0;padding:34px;border:1px solid var(--n8-line);border-radius:26px;background:var(--n8-surface);box-shadow:0 18px 45px rgba(31,52,118,.08)}
+main>section:first-of-type{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(280px,.95fr);gap:32px;align-items:center}
+main>section:first-of-type img{width:100%;border-radius:22px}
+.region-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.region-grid>a,.region-grid>div{border:1px solid var(--n8-line);border-radius:18px;background:#fbfcff}
+#companies{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+#companies>a,#companies>article,#companies>div{border-radius:22px;border:1px solid var(--n8-line);background:#fff}
+a[class*="btn"],button{border-radius:999px}
+@media(max-width:760px){main>section:first-of-type{grid-template-columns:1fr}.region-grid,#companies{grid-template-columns:1fr}}
+
+/* NEW8-DESIGN-END */
+
+/* SITE25-32 DESIGN OVERRIDE START */
+/* site-31 : lavender minimal */
+:root{--x-bg:#faf9ff;--x-ink:#29263c;--x-ac:#7463c8;--x-card:#fff;--x-line:#e3def6}
+html,body{background:var(--x-bg)!important;color:var(--x-ink)!important}
+body{font-family:Arial,"Noto Sans KR",sans-serif!important}
+.topbar{background:#faf9ff!important;border-bottom:1px solid #e7e2f4!important;box-shadow:none!important}
+.ry-nav{min-height:76px!important}
+.ry-brand{font-weight:500!important;font-size:19px!important;color:#312d49!important}
+.ry-brand b{color:#7463c8!important}
+.metro-hero{background:transparent!important;border:0!important;border-radius:0!important;box-shadow:none!important;padding-top:38px!important;padding-bottom:38px!important}
+.metro-hero-photo{border-radius:18px!important;box-shadow:0 18px 44px rgba(79,68,136,.12)!important}
+main section,article,.card,.box{background:#fff!important;border:1px solid var(--x-line)!important;border-radius:14px!important;box-shadow:none!important}
+h1,h2,h3{font-weight:600!important}
+.btn,button{background:#7463c8!important;color:#fff!important;border-radius:10px!important}
+table{background:#fff!important}
+footer{background:#29263c!important;color:#f5f2ff!important}
+/* SITE25-32 DESIGN OVERRIDE END */
+
+/* SITE26-32-FINAL-DESIGN START */
+
+html,
+body{
+  background:#faf7ff!important;
+  color:#665875!important;
+}
+
+body{
+  overflow-x:hidden!important;
+}
+
+main{
+  width:min(1240px,calc(100% - 36px))!important;
+  margin-left:auto!important;
+  margin-right:auto!important;
+}
+
+main h1{
+  color:#5b21b6!important;
+  -webkit-text-fill-color:#5b21b6!important;
+  opacity:1!important;
+  font-size:clamp(38px,5vw,62px)!important;
+  line-height:1.1!important;
+  word-break:keep-all!important;
+}
+
+main h2{
+  color:#5b21b6!important;
+  -webkit-text-fill-color:#5b21b6!important;
+  opacity:1!important;
+  font-size:clamp(29px,3.5vw,46px)!important;
+  line-height:1.18!important;
+  word-break:keep-all!important;
+}
+
+main h3{
+  color:#6d36b9!important;
+  -webkit-text-fill-color:#6d36b9!important;
+  opacity:1!important;
+  word-break:keep-all!important;
+}
+
+main p{
+  color:#665875!important;
+  -webkit-text-fill-color:#665875!important;
+  opacity:1!important;
+  line-height:1.75!important;
+}
+
+/* 상단 지역 안내 */
+.metro-local-800{
+  background:#ffffff!important;
+  color:#665875!important;
+  opacity:1!important;
+  filter:none!important;
+  border-color:#ded2ed!important;
+}
+
+.metro-local-800 .inner{
+  color:#665875!important;
+  opacity:1!important;
+  filter:none!important;
+}
+
+.metro-local-800 h2{
+  color:#5b21b6!important;
+  -webkit-text-fill-color:#5b21b6!important;
+  opacity:1!important;
+  text-shadow:none!important;
+}
+
+.metro-local-800 p{
+  color:#665875!important;
+  -webkit-text-fill-color:#665875!important;
+  opacity:1!important;
+}
+
+.metro-local-800 strong{
+  color:#6d36b9!important;
+  -webkit-text-fill-color:#6d36b9!important;
+}
+
+.metro-local-800 span,
+.metro-local-800 small{
+  color:#80728e!important;
+  -webkit-text-fill-color:#80728e!important;
+  opacity:1!important;
+}
+
+/* 장문 GUIDE */
+.ry-longtext{
+  background:#ffffff!important;
+  color:#665875!important;
+  border:1px solid #ded2ed!important;
+  border-radius:26px!important;
+  opacity:1!important;
+  filter:none!important;
+}
+
+.ry-longtext-inner{
+  color:#665875!important;
+  opacity:1!important;
+  filter:none!important;
+}
+
+.ry-longtext .kicker{
+  color:#7c3aed!important;
+  -webkit-text-fill-color:#7c3aed!important;
+  opacity:1!important;
+  font-weight:900!important;
+}
+
+.ry-longtext h2{
+  color:#5b21b6!important;
+  -webkit-text-fill-color:#5b21b6!important;
+  opacity:1!important;
+}
+
+.ry-longtext-inner > p{
+  color:#665875!important;
+  -webkit-text-fill-color:#665875!important;
+  opacity:1!important;
+}
+
+.ry-longtext strong{
+  color:#6d36b9!important;
+  -webkit-text-fill-color:#6d36b9!important;
+}
+
+.ry-longtext-grid{
+  display:grid!important;
+  grid-template-columns:repeat(3,minmax(0,1fr))!important;
+  gap:18px!important;
+}
+
+.ry-longtext-box{
+  background:#efe7ff!important;
+  color:#665875!important;
+  border:1px solid #ded2ed!important;
+  border-radius:18px!important;
+  padding:22px!important;
+  opacity:1!important;
+  box-shadow:none!important;
+}
+
+.ry-longtext-box h3{
+  color:#6d36b9!important;
+  -webkit-text-fill-color:#6d36b9!important;
+}
+
+.ry-longtext-box p{
+  color:#665875!important;
+  -webkit-text-fill-color:#665875!important;
+}
+
+/* 업체 영역 - 기존 좌우 분할 제거 */
+:is(section,div):has(> .company-grid){
+  display:block!important;
+  grid-template-columns:none!important;
+  width:100%!important;
+  max-width:1240px!important;
+  margin-left:auto!important;
+  margin-right:auto!important;
+}
+
+:is(section,div):has(> .company-grid) > *{
+  width:100%!important;
+  max-width:none!important;
+  min-width:0!important;
+}
+
+.company-grid{
+  display:grid!important;
+  grid-template-columns:repeat(5,minmax(0,1fr))!important;
+  gap:16px!important;
+  width:100%!important;
+  margin:28px 0 0!important;
+  padding:0!important;
+}
+
+/* 업체 카드 */
+.company-grid .company-card{
+  min-width:0!important;
+  min-height:250px!important;
+  display:flex!important;
+  flex-direction:column!important;
+  padding:22px 18px!important;
+
+  background:#ffffff!important;
+  color:#665875!important;
+
+  border:1px solid #ded2ed!important;
+  border-top:4px solid #7c3aed!important;
+  border-radius:18px!important;
+
+  box-shadow:0 8px 24px rgba(0,0,0,.06)!important;
+}
+
+.company-grid .ry-rank{
+  width:30px!important;
+  height:30px!important;
+  display:flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+
+  background:#4c1d95!important;
+  color:#ffffff!important;
+
+  border-radius:9px!important;
+  margin-bottom:14px!important;
+}
+
+.company-grid .company-name,
+.company-grid .company-name a{
+  color:#5b21b6!important;
+  -webkit-text-fill-color:#5b21b6!important;
+  font-size:21px!important;
+  line-height:1.3!important;
+  font-weight:900!important;
+  word-break:keep-all!important;
+}
+
+.company-grid .company-sub{
+  flex:1!important;
+  color:#80728e!important;
+  -webkit-text-fill-color:#80728e!important;
+  font-size:14px!important;
+  line-height:1.65!important;
+  margin:14px 0 18px!important;
+  word-break:keep-all!important;
+}
+
+/* 업체카드 전화/문자 */
+.company-grid .company-actions{
+  display:grid!important;
+  grid-template-columns:1fr 1fr!important;
+  gap:8px!important;
+  margin-top:auto!important;
+}
+
+.company-grid .company-actions a{
+  min-height:46px!important;
+  display:flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  border-radius:11px!important;
+  font-size:14px!important;
+  font-weight:900!important;
+  white-space:nowrap!important;
+}
+
+.company-grid .company-actions .call{
+  background:#7c3aed!important;
+  color:#ffffff!important;
+  -webkit-text-fill-color:#ffffff!important;
+}
+
+.company-grid .company-actions .sms{
+  background:#4c1d95!important;
+  color:#ffffff!important;
+  -webkit-text-fill-color:#ffffff!important;
+}
+
+/* SHOP 대표 이미지 */
+body:has(.actions) section:has(table)::before{
+  content:""!important;
+  display:block!important;
+  width:100%!important;
+  height:340px!important;
+  margin:0 0 30px!important;
+
+  background:
+    linear-gradient(
+      180deg,
+      rgba(0,0,0,.02),
+      rgba(0,0,0,.14)
+    ),
+    url("/assets/brand/hero.webp") center/cover no-repeat!important;
+
+  border:1px solid #ded2ed!important;
+  border-radius:26px!important;
+  box-shadow:0 16px 42px rgba(0,0,0,.10)!important;
+}
+
+body:has(.actions) section:has(table){
+  background:#ffffff!important;
+  color:#665875!important;
+  border:1px solid #ded2ed!important;
+  border-radius:28px!important;
+  padding:30px!important;
+}
+
+body:has(.actions) section:has(table) h1{
+  color:#5b21b6!important;
+  -webkit-text-fill-color:#5b21b6!important;
+}
+
+body:has(.actions) section:has(table) p{
+  color:#665875!important;
+  -webkit-text-fill-color:#665875!important;
+}
+
+/* SHOP 안내 */
+body:has(.actions) .note,
+body:has(.actions) .text-box{
+  background:#efe7ff!important;
+  color:#665875!important;
+  border-color:#ded2ed!important;
+}
+
+/* 코스표 */
+body:has(.actions) table{
+  width:100%!important;
+  background:#ffffff!important;
+}
+
+body:has(.actions) table th{
+  background:#efe7ff!important;
+  color:#6d36b9!important;
+  -webkit-text-fill-color:#6d36b9!important;
+}
+
+body:has(.actions) table td{
+  background:#ffffff!important;
+  color:#665875!important;
+  -webkit-text-fill-color:#665875!important;
+}
+
+/* SHOP 하단 고정 전화/문자
+   기존 href 그대로 사용 */
+.actions{
+  position:fixed!important;
+  left:50%!important;
+  bottom:14px!important;
+  transform:translateX(-50%)!important;
+  z-index:99999!important;
+
+  width:min(760px,calc(100% - 24px))!important;
+
+  display:grid!important;
+  grid-template-columns:1fr 1fr!important;
+  gap:10px!important;
+
+  padding:10px!important;
+  margin:0!important;
+
+  background:rgba(255,255,255,.96)!important;
+  border:1px solid #ded2ed!important;
+  border-radius:18px!important;
+  box-shadow:0 16px 45px rgba(0,0,0,.18)!important;
+}
+
+.actions a{
+  min-height:54px!important;
+
+  display:flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+
+  border-radius:13px!important;
+  font-size:17px!important;
+  font-weight:900!important;
+  white-space:nowrap!important;
+  text-decoration:none!important;
+}
+
+.actions .call{
+  background:#7c3aed!important;
+  color:#ffffff!important;
+  -webkit-text-fill-color:#ffffff!important;
+}
+
+.actions .sms{
+  background:#4c1d95!important;
+  color:#ffffff!important;
+  -webkit-text-fill-color:#ffffff!important;
+}
+
+main:has(.actions){
+  padding-bottom:125px!important;
+}
+
+footer{
+  color:#80728e!important;
+  -webkit-text-fill-color:#80728e!important;
+}
+
+footer strong{
+  color:#6d36b9!important;
+  -webkit-text-fill-color:#6d36b9!important;
+}
+
+@media(max-width:1100px){
+  .company-grid{
+    grid-template-columns:repeat(3,minmax(0,1fr))!important;
+  }
+}
+
+@media(max-width:900px){
+  .ry-longtext-grid{
+    grid-template-columns:repeat(2,minmax(0,1fr))!important;
+  }
+}
+
+@media(max-width:760px){
+
+  main{
+    width:min(100% - 24px,1240px)!important;
+  }
+
+  .company-grid{
+    grid-template-columns:repeat(2,minmax(0,1fr))!important;
+  }
+
+  body:has(.actions) section:has(table)::before{
+    height:230px!important;
+    border-radius:18px!important;
+  }
+
+  body:has(.actions) section:has(table){
+    padding:16px!important;
+  }
+}
+
+@media(max-width:560px){
+
+  .company-grid,
+  .ry-longtext-grid{
+    grid-template-columns:1fr!important;
+  }
+
+  .company-grid .company-card{
+    min-height:0!important;
+  }
+
+  .actions{
+    bottom:8px!important;
+    width:calc(100% - 16px)!important;
+    padding:8px!important;
+  }
+
+  .actions a{
+    min-height:52px!important;
+    font-size:16px!important;
+  }
+}
+
+/* SITE26-32-FINAL-DESIGN END */

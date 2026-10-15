@@ -1,0 +1,564 @@
+
+*{box-sizing:border-box}
+
+:root{
+  --forest:#183b32;
+  --forest2:#102c25;
+  --sage:#dfe7df;
+  --cream:#f5f0e6;
+  --paper:#fffdf8;
+  --gold:#c79a4b;
+  --copper:#c8754d;
+  --ink:#17332c;
+  --line:#d9d1c4;
+}
+
+body{
+  margin:0;
+  font-family:Arial,"Noto Sans KR",sans-serif;
+}
+
+a{text-decoration:none;color:inherit}
+
+.s4-header{
+  height:74px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:0 max(32px,calc((100% - 1180px)/2));
+}
+
+.s4-logo{
+  font-size:21px;
+  font-weight:900;
+}
+
+.s4-header nav{
+  display:flex;
+  gap:28px;
+  font-size:12px;
+  font-weight:900;
+}
+
+.s4-wrap{
+  width:min(1180px,calc(100% - 38px));
+  margin:30px auto 90px;
+}
+
+.s4-hero{
+  min-height:480px;
+  display:grid;
+  overflow:hidden;
+}
+
+.s4-photo{
+  background:url("/assets/brand/hero.webp") center/cover no-repeat;
+}
+
+.s4-copy{
+  padding:60px 48px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
+
+.s4-copy span,
+.s4-label{
+  font-size:11px;
+  font-weight:900;
+  letter-spacing:.16em;
+}
+
+.s4-copy h1{
+  margin:15px 0 22px;
+  font-size:clamp(42px,5vw,64px);
+  line-height:1.08;
+  letter-spacing:-.055em;
+  word-break:keep-all;
+}
+
+.s4-copy p{
+  margin:0;
+  max-width:430px;
+  line-height:1.85;
+}
+
+.s4-area,
+.s4-partners{
+  margin-top:64px;
+}
+
+.s4-area h2,
+.s4-partners h2{
+  margin:10px 0 28px;
+  font-size:34px;
+  letter-spacing:-.04em;
+}
+
+/* MAIN */
+
+.s4-main{
+  background:var(--cream);
+  color:var(--ink);
+}
+
+.s4-main .s4-header{
+  background:var(--paper);
+  border-bottom:1px solid var(--line);
+}
+
+.s4-main .s4-hero{
+  grid-template-columns:48% 52%;
+  background:#fff;
+  border-radius:44px 0 44px 0;
+  border:1px solid var(--line);
+}
+
+.s4-main .s4-photo{
+  border-radius:44px 0 44px 0;
+}
+
+.s4-main .s4-copy{
+  background:var(--forest);
+  color:#fff;
+}
+
+.s4-main .s4-copy span{
+  color:#e4bf78;
+}
+
+.s4-main .s4-copy p{
+  color:#dbe7e2;
+}
+
+.s4-main .s4-region-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:14px;
+}
+
+.s4-main .region-card{
+  min-height:150px!important;
+  padding:24px!important;
+  background:#fff!important;
+  border:1px solid var(--line)!important;
+  border-bottom:5px solid var(--gold)!important;
+  border-radius:22px 22px 0 0!important;
+  box-shadow:none!important;
+}
+
+.s4-main .s4-company-grid{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:16px;
+}
+
+.s4-main .company-card{
+  min-height:185px!important;
+  padding:26px!important;
+  background:#fff!important;
+  border:1px solid var(--line)!important;
+  border-radius:28px 0 28px 0!important;
+  box-shadow:none!important;
+}
+
+.s4-main .company-card:nth-child(5){
+  grid-column:1/-1!important;
+}
+
+.s4-main .ry-rank{
+  background:var(--gold)!important;
+  color:#fff!important;
+}
+
+.s4-main .company-name{
+  color:var(--forest)!important;
+  -webkit-text-fill-color:var(--forest)!important;
+}
+
+.s4-main .company-actions .call{
+  background:var(--forest)!important;
+  color:#fff!important;
+}
+
+.s4-main .company-actions .sms{
+  background:var(--gold)!important;
+  color:#fff!important;
+}
+
+
+/* SPECIAL */
+
+.s4-special{
+  background:#0f2821;
+  color:#fff;
+}
+
+.s4-special .s4-header{
+  background:#0b211b;
+  border-bottom:1px solid #38584c;
+}
+
+.s4-special .s4-hero{
+  grid-template-columns:56% 44%;
+  background:#eee3d2;
+  border-radius:0 60px 0 60px;
+}
+
+.s4-special .s4-photo{
+  order:2;
+  border-radius:0 60px 0 60px;
+}
+
+.s4-special .s4-copy{
+  order:1;
+  color:var(--forest);
+}
+
+.s4-special .s4-copy span{
+  color:var(--copper);
+}
+
+.s4-special .s4-copy p{
+  color:#52675e;
+}
+
+.s4-special .s4-region-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:12px;
+}
+
+.s4-special .region-card{
+  min-height:150px!important;
+  padding:24px!important;
+  background:#173d33!important;
+  border:1px solid #48695c!important;
+  border-radius:0!important;
+  box-shadow:none!important;
+}
+
+.s4-special .region-card,
+.s4-special .region-card *{
+  color:#fff!important;
+  -webkit-text-fill-color:#fff!important;
+}
+
+.s4-special .s4-company-grid{
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+}
+
+.s4-special .company-card{
+  min-height:126px!important;
+  padding:22px 26px!important;
+  display:grid!important;
+  grid-template-columns:60px 1.2fr 1fr 260px!important;
+  align-items:center!important;
+  gap:18px!important;
+  background:#173d33!important;
+  border:1px solid #48695c!important;
+  border-left:6px solid var(--copper)!important;
+  border-radius:0!important;
+  box-shadow:none!important;
+}
+
+.s4-special .ry-rank{
+  background:var(--copper)!important;
+  color:#fff!important;
+}
+
+.s4-special .company-name{
+  color:#fff!important;
+  -webkit-text-fill-color:#fff!important;
+  font-size:22px!important;
+}
+
+.s4-special .company-sub{
+  color:#c7d6d0!important;
+  -webkit-text-fill-color:#c7d6d0!important;
+}
+
+.s4-special .company-actions{
+  display:grid!important;
+  grid-template-columns:1fr 1fr!important;
+  gap:8px!important;
+}
+
+.s4-special .company-actions .call{
+  background:var(--copper)!important;
+  color:#fff!important;
+}
+
+.s4-special .company-actions .sms{
+  background:#fffaf1!important;
+  color:var(--forest)!important;
+}
+
+@media(max-width:800px){
+  .s4-hero,
+  .s4-main .s4-hero,
+  .s4-special .s4-hero{
+    grid-template-columns:1fr;
+  }
+
+  .s4-photo{
+    min-height:300px;
+  }
+
+  .s4-main .s4-region-grid,
+  .s4-main .s4-company-grid,
+  .s4-special .s4-region-grid{
+    grid-template-columns:1fr;
+  }
+
+  .s4-main .company-card:nth-child(5){
+    grid-column:auto!important;
+  }
+
+  .s4-special .company-card{
+    grid-template-columns:55px 1fr!important;
+  }
+
+  .s4-special .company-sub,
+  .s4-special .company-actions{
+    grid-column:2!important;
+  }
+}
+
+
+/* SITE04 REGION CARD POLISH */
+
+.s4-region-grid .region-card{
+  display:flex!important;
+  flex-direction:column!important;
+  justify-content:center!important;
+  align-items:flex-start!important;
+  gap:9px!important;
+}
+
+.s4-region-grid .region-card > *{
+  display:block!important;
+  margin:0!important;
+  line-height:1.45!important;
+}
+
+.s4-region-grid .region-card small,
+.s4-region-grid .region-card .label,
+.s4-region-grid .region-card span:first-child{
+  font-size:11px!important;
+  letter-spacing:.05em!important;
+  opacity:.78!important;
+}
+
+.s4-region-grid .region-card strong,
+.s4-region-grid .region-card h2,
+.s4-region-grid .region-card h3{
+  font-size:24px!important;
+  line-height:1.2!important;
+  font-weight:900!important;
+}
+
+.s4-region-grid .region-card p{
+  font-size:14px!important;
+  line-height:1.55!important;
+}
+
+/* ?? ??? ? ??? ??? ?? */
+.s4-copy h1,
+.s4-area h2,
+.s4-partners h2{
+  word-break:keep-all!important;
+  overflow-wrap:normal!important;
+}
+
+/* ===== SITE-04 V2 FINAL POLISH ===== */
+
+/* 히어로 설명 한글 줄바꿈 */
+.s4-copy p{
+  max-width:520px!important;
+  word-break:keep-all!important;
+  overflow-wrap:normal!important;
+}
+
+/* MAIN 업체카드 내부 정리 */
+.s4-main .company-card{
+  min-height:190px!important;
+  padding:24px!important;
+  display:grid!important;
+  grid-template-columns:48px 1fr!important;
+  align-content:start!important;
+  gap:8px 12px!important;
+}
+
+.s4-main .company-card .ry-rank{
+  grid-column:1!important;
+  grid-row:1!important;
+  display:flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  width:32px!important;
+  height:32px!important;
+  border-radius:50%!important;
+}
+
+.s4-main .company-card .company-name{
+  grid-column:2!important;
+  font-size:21px!important;
+  font-weight:900!important;
+  line-height:1.3!important;
+}
+
+.s4-main .company-card .company-sub{
+  grid-column:1 / -1!important;
+  margin:8px 0 0!important;
+  line-height:1.65!important;
+}
+
+.s4-main .company-card .company-actions{
+  grid-column:1 / -1!important;
+  display:grid!important;
+  grid-template-columns:1fr 1fr!important;
+  gap:10px!important;
+  margin-top:10px!important;
+}
+
+.s4-main .company-card .company-actions a{
+  min-height:44px!important;
+  display:flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  border-radius:10px!important;
+  font-weight:900!important;
+  text-decoration:none!important;
+}
+
+/* SPECIAL 버튼도 확실하게 */
+.s4-special .company-actions a{
+  min-height:42px!important;
+  display:flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  font-weight:900!important;
+  text-decoration:none!important;
+}
+
+
+/* ===== SITE-04 SPECIAL COMPANY LAYOUT MATCH MAIN ===== */
+
+.s4-special .s4-company-grid{
+  display:grid!important;
+  grid-template-columns:repeat(2,1fr)!important;
+  gap:16px!important;
+}
+
+.s4-special .company-card{
+  min-height:190px!important;
+  padding:24px!important;
+
+  display:grid!important;
+  grid-template-columns:48px 1fr!important;
+  align-content:start!important;
+  gap:8px 12px!important;
+
+  background:#173d33!important;
+  border:1px solid #48695c!important;
+  border-radius:28px 0 28px 0!important;
+  box-shadow:none!important;
+}
+
+.s4-special .company-card:nth-child(5){
+  grid-column:1/-1!important;
+}
+
+/* 순위 */
+.s4-special .company-card .ry-rank{
+  grid-column:1!important;
+  grid-row:1!important;
+
+  width:32px!important;
+  height:32px!important;
+
+  display:flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+
+  border-radius:50%!important;
+  background:#c8754d!important;
+  color:#fff!important;
+}
+
+/* 업체명 */
+.s4-special .company-card .company-name{
+  grid-column:2!important;
+  font-size:21px!important;
+  font-weight:900!important;
+  line-height:1.3!important;
+
+  color:#fff!important;
+  -webkit-text-fill-color:#fff!important;
+}
+
+/* 설명 */
+.s4-special .company-card .company-sub{
+  grid-column:1/-1!important;
+  margin:8px 0 0!important;
+  line-height:1.65!important;
+
+  color:#c7d6d0!important;
+  -webkit-text-fill-color:#c7d6d0!important;
+}
+
+/* 전화/문자 */
+.s4-special .company-card .company-actions{
+  grid-column:1/-1!important;
+
+  display:grid!important;
+  grid-template-columns:1fr 1fr!important;
+  gap:10px!important;
+
+  margin-top:10px!important;
+}
+
+.s4-special .company-card .company-actions a{
+  min-height:44px!important;
+
+  display:flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+
+  border-radius:10px!important;
+  font-weight:900!important;
+  text-decoration:none!important;
+}
+
+.s4-special .company-actions .call{
+  background:#c8754d!important;
+  color:#fff!important;
+}
+
+.s4-special .company-actions .sms{
+  background:#fffaf1!important;
+  color:#173d34!important;
+}
+
+@media(max-width:800px){
+  .s4-special .s4-company-grid{
+    grid-template-columns:1fr!important;
+  }
+
+  .s4-special .company-card:nth-child(5){
+    grid-column:auto!important;
+  }
+}
+
+
+/* ===== SITE-04 5TH CARD WIDTH FIX ===== */
+
+.s4-main .company-card:nth-child(5),
+.s4-special .company-card:nth-child(5){
+  grid-column:auto!important;
+  width:auto!important;
+}
+

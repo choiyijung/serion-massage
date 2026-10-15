@@ -1,0 +1,619 @@
+
+/* =========================================
+   SITE-04 SHOP V2
+   forest + ivory + gold
+   ========================================= */
+
+body.site04-shop-v2{
+  margin:0!important;
+  background:#f4f0e7!important;
+  color:#18352e!important;
+  font-family:Arial,"Noto Sans KR",sans-serif!important;
+}
+
+/* HEADER */
+.site04-shop-v2 .top{
+  background:#173d34!important;
+  border:0!important;
+}
+
+.site04-shop-v2 .brand{
+  color:#fff!important;
+  -webkit-text-fill-color:#fff!important;
+  font-weight:900!important;
+}
+
+.site04-shop-v2 .breadcrumb{
+  color:#d8e4de!important;
+  -webkit-text-fill-color:#d8e4de!important;
+}
+
+/* PAGE */
+.site04-shop-v2 .wrap{
+  width:min(1040px,calc(100% - 32px))!important;
+  margin:42px auto 90px!important;
+}
+
+/* MAIN SHOP CARD */
+.site04-shop-v2 .card{
+  padding:0!important;
+  overflow:hidden!important;
+  background:#fffdf8!important;
+  border:1px solid #d9d1c4!important;
+  border-radius:36px 0 36px 0!important;
+  box-shadow:0 22px 55px rgba(24,59,50,.10)!important;
+}
+
+/* SHOP NAME */
+.site04-shop-v2 .shop-name{
+  margin:0!important;
+  padding:42px 46px 22px!important;
+  background:#173d34!important;
+  color:#fff!important;
+  -webkit-text-fill-color:#fff!important;
+  font-size:clamp(36px,5vw,52px)!important;
+  font-weight:900!important;
+  line-height:1.08!important;
+  letter-spacing:-.05em!important;
+  word-break:keep-all!important;
+}
+
+.site04-shop-v2 .site-copy-v4{
+  padding:14px 46px!important;
+  background:#c59846!important;
+  color:#fff!important;
+  -webkit-text-fill-color:#fff!important;
+  font-weight:800!important;
+}
+
+/* AREA */
+.site04-shop-v2 .area{
+  margin:34px 46px 0!important;
+  color:#b17e2f!important;
+  -webkit-text-fill-color:#b17e2f!important;
+  font-weight:900!important;
+}
+
+/* INTRO */
+.site04-shop-v2 .shop-intro{
+  margin:18px 46px 34px!important;
+  padding:27px 30px!important;
+  background:#f0ece2!important;
+  border-left:5px solid #c59846!important;
+  border-radius:0!important;
+  color:#43584f!important;
+  -webkit-text-fill-color:#43584f!important;
+  line-height:1.85!important;
+}
+
+/* COURSE */
+.site04-shop-v2 .course{
+  margin:0 46px 34px!important;
+  overflow:hidden!important;
+  background:#fff!important;
+  border:1px solid #d8d0c3!important;
+  border-radius:18px!important;
+}
+
+.site04-shop-v2 .course table{
+  width:100%!important;
+  border-collapse:collapse!important;
+}
+
+.site04-shop-v2 .course th{
+  padding:17px 14px!important;
+  background:#173d34!important;
+  color:#fff!important;
+  -webkit-text-fill-color:#fff!important;
+  border-color:#36584d!important;
+}
+
+.site04-shop-v2 .course td{
+  padding:17px 14px!important;
+  background:#fff!important;
+  color:#263f36!important;
+  -webkit-text-fill-color:#263f36!important;
+  border-color:#e3ddd2!important;
+}
+
+.site04-shop-v2 .course tr:nth-child(even) td{
+  background:#faf7f1!important;
+}
+
+/* PHONE */
+.site04-shop-v2 .phone{
+  margin:0 46px!important;
+  padding:24px!important;
+  text-align:center!important;
+  background:#ece5d8!important;
+  color:#173d34!important;
+  -webkit-text-fill-color:#173d34!important;
+  border-radius:16px!important;
+  font-size:25px!important;
+  font-weight:900!important;
+}
+
+/* ACTIONS */
+.site04-shop-v2 .actions{
+  margin:18px 46px 42px!important;
+  display:grid!important;
+  grid-template-columns:1fr 1fr!important;
+  gap:12px!important;
+}
+
+.site04-shop-v2 .actions a{
+  min-height:58px!important;
+  display:flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  border-radius:12px!important;
+  font-size:16px!important;
+  font-weight:900!important;
+  text-decoration:none!important;
+}
+
+.site04-shop-v2 .actions .call{
+  background:#173d34!important;
+  color:#fff!important;
+  -webkit-text-fill-color:#fff!important;
+}
+
+.site04-shop-v2 .actions .sms{
+  background:#c59846!important;
+  color:#fff!important;
+  -webkit-text-fill-color:#fff!important;
+}
+
+/* NOTE */
+.site04-shop-v2 .note{
+  margin:0 46px 42px!important;
+  padding:22px 25px!important;
+  background:#f7f3eb!important;
+  border:1px solid #ded5c7!important;
+  color:#59675f!important;
+  -webkit-text-fill-color:#59675f!important;
+  border-radius:14px!important;
+  line-height:1.75!important;
+}
+
+/* LONG CONTENT */
+.site04-shop-v2 .shop-extra-guide{
+  margin:56px 0 0!important;
+  padding:42px!important;
+  background:#fffdf8!important;
+  border:1px solid #d9d1c4!important;
+  border-radius:28px 0 28px 0!important;
+  color:#344c43!important;
+  -webkit-text-fill-color:#344c43!important;
+}
+
+.site04-shop-v2 .shop-extra-guide-head{
+  padding-bottom:24px!important;
+  margin-bottom:28px!important;
+  border-bottom:2px solid #173d34!important;
+}
+
+.site04-shop-v2 .shop-extra-guide h2{
+  color:#173d34!important;
+  -webkit-text-fill-color:#173d34!important;
+  word-break:keep-all!important;
+}
+
+.site04-shop-v2 .shop-extra-guide h3{
+  color:#a8752d!important;
+  -webkit-text-fill-color:#a8752d!important;
+}
+
+.site04-shop-v2 .shop-extra-guide p,
+.site04-shop-v2 .shop-extra-guide li{
+  color:#4c6057!important;
+  -webkit-text-fill-color:#4c6057!important;
+  line-height:1.9!important;
+}
+
+.site04-shop-v2 .shop-extra-guide-grid{
+  display:grid!important;
+  grid-template-columns:1fr 1fr!important;
+  gap:18px!important;
+}
+
+.site04-shop-v2 .shop-extra-guide-grid > *{
+  padding:24px!important;
+  background:#f2eee5!important;
+  border:1px solid #ded6c8!important;
+  border-radius:20px 0 20px 0!important;
+}
+
+.site04-shop-v2 .shop-extra-guide-faq{
+  margin-top:18px!important;
+  padding:26px!important;
+  background:#173d34!important;
+  border-radius:20px!important;
+}
+
+.site04-shop-v2 .shop-extra-guide-faq,
+.site04-shop-v2 .shop-extra-guide-faq *{
+  color:#fff!important;
+  -webkit-text-fill-color:#fff!important;
+}
+
+/* BACK */
+.site04-shop-v2 .back{
+  display:inline-flex!important;
+  margin-top:28px!important;
+  padding:13px 22px!important;
+  background:#fff!important;
+  border:1px solid #cfc6b8!important;
+  border-radius:999px!important;
+  color:#173d34!important;
+  -webkit-text-fill-color:#173d34!important;
+  font-weight:800!important;
+}
+
+/* FIXED CONTACT */
+.site04-shop-v2 .shop-follow-contact{
+  background:#173d34!important;
+  border-top:1px solid #36584d!important;
+}
+
+.site04-shop-v2 .shop-follow-call{
+  background:#fff!important;
+  color:#173d34!important;
+  -webkit-text-fill-color:#173d34!important;
+}
+
+.site04-shop-v2 .shop-follow-sms{
+  background:#c59846!important;
+  color:#fff!important;
+  -webkit-text-fill-color:#fff!important;
+}
+
+@media(max-width:720px){
+
+  .site04-shop-v2 .wrap{
+    width:min(100% - 20px,1040px)!important;
+    margin-top:20px!important;
+  }
+
+  .site04-shop-v2 .shop-name{
+    padding:32px 24px 18px!important;
+  }
+
+  .site04-shop-v2 .site-copy-v4{
+    padding-left:24px!important;
+    padding-right:24px!important;
+  }
+
+  .site04-shop-v2 .area,
+  .site04-shop-v2 .shop-intro,
+  .site04-shop-v2 .course,
+  .site04-shop-v2 .phone,
+  .site04-shop-v2 .actions,
+  .site04-shop-v2 .note{
+    margin-left:20px!important;
+    margin-right:20px!important;
+  }
+
+  .site04-shop-v2 .actions{
+    grid-template-columns:1fr!important;
+  }
+
+  .site04-shop-v2 .shop-extra-guide{
+    padding:27px 20px!important;
+  }
+
+  .site04-shop-v2 .shop-extra-guide-grid{
+    grid-template-columns:1fr!important;
+  }
+}
+
+/* ===== SITE-04 SHOP FINAL POLISH ===== */
+
+/* 금색 안내영역 기존 색상 제거 */
+.site04-shop-v2 .site-copy-v4,
+.site04-shop-v2 .site-copy-v4 *{
+  color:#fff!important;
+  -webkit-text-fill-color:#fff!important;
+}
+
+/* 코스 소개영역 보라색 제거 */
+.site04-shop-v2 .shop-intro,
+.site04-shop-v2 .shop-intro *{
+  color:#173d34!important;
+  -webkit-text-fill-color:#173d34!important;
+}
+
+/* 하단 고정버튼의 깨진 원본 글자 숨김 */
+.site04-shop-v2 .shop-follow-call,
+.site04-shop-v2 .shop-follow-sms{
+  font-size:0!important;
+  font-weight:900!important;
+}
+
+/* 전화하기 */
+.site04-shop-v2 .shop-follow-call::after{
+  content:"\C804\D654\D558\AE30";
+  font-size:15px!important;
+  font-weight:900!important;
+}
+
+/* 문자하기 */
+.site04-shop-v2 .shop-follow-sms::after{
+  content:"\BB38\C790\D558\AE30";
+  font-size:15px!important;
+  font-weight:900!important;
+}
+
+
+/* ===== SITE-04 COURSE TABLE WIDTH FIX ===== */
+
+.site04-shop-v2 .course{
+  overflow:hidden!important;
+}
+
+.site04-shop-v2 .course table{
+  width:100%!important;
+  max-width:100%!important;
+  table-layout:fixed!important;
+}
+
+.site04-shop-v2 .course th{
+  width:34%!important;
+  white-space:normal!important;
+  word-break:keep-all!important;
+}
+
+.site04-shop-v2 .course td{
+  width:66%!important;
+  white-space:normal!important;
+  word-break:keep-all!important;
+  overflow-wrap:break-word!important;
+  line-height:1.65!important;
+}
+
+.site04-shop-v2 .course th,
+.site04-shop-v2 .course td{
+  font-size:13px!important;
+  vertical-align:middle!important;
+}
+
+
+/* ===== SITE-04 COURSE TABLE FINAL FIT ===== */
+
+.site04-shop-v2 .course th{
+  width:30%!important;
+  padding:14px 10px!important;
+  font-size:12px!important;
+}
+
+.site04-shop-v2 .course td{
+  width:70%!important;
+  padding:14px 10px!important;
+  font-size:12px!important;
+  white-space:normal!important;
+  word-break:normal!important;
+  overflow-wrap:anywhere!important;
+  line-height:1.55!important;
+}
+
+.site04-shop-v2 .course table{
+  table-layout:fixed!important;
+  width:100%!important;
+}
+
+
+/* ===== SITE-04 SHOP COURSE LAYOUT REBALANCE ===== */
+
+/* 왼쪽 소개박스는 조금 줄이고 */
+.site04-shop-v2 .shop-intro{
+  width:39%!important;
+  max-width:39%!important;
+}
+
+/* 오른쪽 코스표 영역을 넓힘 */
+.site04-shop-v2 .course{
+  width:51%!important;
+  max-width:51%!important;
+}
+
+/* 코스표 글자는 다시 정상 크기 */
+.site04-shop-v2 .course th{
+  width:32%!important;
+  padding:16px 12px!important;
+  font-size:13px!important;
+  line-height:1.45!important;
+}
+
+.site04-shop-v2 .course td{
+  width:68%!important;
+  padding:16px 12px!important;
+  font-size:13px!important;
+  line-height:1.6!important;
+  white-space:normal!important;
+  word-break:keep-all!important;
+  overflow-wrap:normal!important;
+}
+
+.site04-shop-v2 .course table{
+  width:100%!important;
+  table-layout:fixed!important;
+}
+
+/* 아래 전화번호/버튼부터는 좌우 영향 없게 */
+.site04-shop-v2 .phone{
+  clear:both!important;
+}
+
+
+/* ===== SITE-04 COURSE LAYOUT CORRECT FIX ===== */
+
+/* 전체 2열 구조에서 코스표 쪽만 조금 더 넓게 */
+.site04-shop-v2 .card{
+  grid-template-columns:minmax(0,44%) minmax(0,56%)!important;
+}
+
+/* 방금 잘못 줄였던 개별 폭 원상복구 */
+.site04-shop-v2 .shop-intro{
+  width:auto!important;
+  max-width:none!important;
+  min-width:0!important;
+}
+
+.site04-shop-v2 .course{
+  width:auto!important;
+  max-width:none!important;
+  min-width:0!important;
+}
+
+/* 글자는 억지로 축소하지 않음 */
+.site04-shop-v2 .course th{
+  width:31%!important;
+  padding:16px 12px!important;
+  font-size:13px!important;
+  line-height:1.45!important;
+}
+
+.site04-shop-v2 .course td{
+  width:69%!important;
+  padding:16px 12px!important;
+  font-size:13px!important;
+  line-height:1.6!important;
+  white-space:normal!important;
+  word-break:keep-all!important;
+  overflow-wrap:normal!important;
+}
+
+.site04-shop-v2 .course table{
+  width:100%!important;
+  max-width:100%!important;
+  table-layout:fixed!important;
+}
+
+
+/* ===== SITE-04 SHOP TWO COLUMN FINAL BALANCE ===== */
+
+/* 전체 비율은 유지 */
+.site04-shop-v2 .card{
+  grid-template-columns:minmax(0,44%) minmax(0,56%)!important;
+}
+
+/* 왼쪽 소개박스 */
+.site04-shop-v2 .shop-intro{
+  width:auto!important;
+  max-width:none!important;
+  min-width:0!important;
+
+  margin-left:36px!important;
+  margin-right:10px!important;
+
+  align-self:start!important;
+}
+
+/* 오른쪽 코스표 */
+.site04-shop-v2 .course{
+  width:auto!important;
+  max-width:none!important;
+  min-width:0!important;
+
+  margin-left:10px!important;
+  margin-right:36px!important;
+
+  align-self:start!important;
+}
+
+/* 표는 축소하지 않음 */
+.site04-shop-v2 .course table{
+  width:100%!important;
+  max-width:100%!important;
+  table-layout:fixed!important;
+}
+
+.site04-shop-v2 .course th{
+  width:31%!important;
+  padding:16px 12px!important;
+  font-size:13px!important;
+}
+
+.site04-shop-v2 .course td{
+  width:69%!important;
+  padding:16px 12px!important;
+  font-size:13px!important;
+  line-height:1.55!important;
+  white-space:normal!important;
+  word-break:keep-all!important;
+}
+
+
+/* ===== SITE-04 COURSE HEIGHT BALANCE ===== */
+
+/* 왼쪽 소개박스 / 오른쪽 코스표 높이 맞춤 */
+.site04-shop-v2 .shop-intro,
+.site04-shop-v2 .course{
+  align-self:stretch!important;
+}
+
+/* 코스표가 영역 높이를 전부 사용 */
+.site04-shop-v2 .course table{
+  height:100%!important;
+}
+
+/* 4개 코스 행을 자연스럽게 균등 배치 */
+.site04-shop-v2 .course tbody{
+  height:100%!important;
+}
+
+.site04-shop-v2 .course tr{
+  height:25%!important;
+}
+
+.site04-shop-v2 .course th,
+.site04-shop-v2 .course td{
+  vertical-align:middle!important;
+}
+
+
+/* ===== SITE-04 NOTE COLOR FINAL ===== */
+
+.site04-shop-v2 .note{
+  background:#f1ede3!important;
+  border:1px solid #ddd3c3!important;
+  color:#53665d!important;
+  -webkit-text-fill-color:#53665d!important;
+}
+
+.site04-shop-v2 .note *{
+  color:#53665d!important;
+  -webkit-text-fill-color:#53665d!important;
+}
+
+
+/* ===== SITE-04 SHOP PURPLE REMOVE FINAL ===== */
+
+/* 전화번호 아래 안내박스 */
+.site04-shop-v2 .card .note{
+  background:#f1ede3!important;
+  border:1px solid #ddd3c3!important;
+  color:#53665d!important;
+  -webkit-text-fill-color:#53665d!important;
+  box-shadow:none!important;
+}
+
+/* 하단 가이드 작은 배지 */
+.site04-shop-v2 .shop-extra-guide-head > span{
+  display:inline-block!important;
+  background:#efe5d3!important;
+  border:1px solid #ddc99f!important;
+  color:#8a6429!important;
+  -webkit-text-fill-color:#8a6429!important;
+  border-radius:999px!important;
+  padding:7px 12px!important;
+  font-weight:900!important;
+  box-shadow:none!important;
+}
+
+
+/* fixed contact overlap protection */
+body.site04-shop-v2{
+  padding-bottom:90px!important;
+}
+
