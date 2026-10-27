@@ -6,4 +6,4 @@ Disallow: /join.html
 Disallow: /mypage.html
 Disallow: /shop.html
 
-Sitemap: https://hangyeol-massage.netlify.app/sitemap.xml
+Sitemap: https://serion-massage.netlify.app/sitemap.xml
